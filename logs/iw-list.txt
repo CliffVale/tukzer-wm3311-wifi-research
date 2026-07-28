@@ -1,0 +1,69 @@
+Wiphy phy19
+	wiphy index: 19
+	max # scan SSIDs: 9
+	max scan IEs length: 453 bytes
+	max # sched scan SSIDs: 0
+	max # match sets: 0
+	Retry short limit: 7
+	Retry long limit: 4
+	Coverage class: 0 (up to 0m)
+	Available Antennas: TX 0 RX 0
+	Supported interface modes:
+		 * IBSS
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * mesh point
+	Band 1:
+		Capabilities: 0x907e
+			HT20/HT40
+			SM Power Save disabled
+			RX Greenfield
+			RX HT20 SGI
+			RX HT40 SGI
+			No RX STBC
+			Max AMSDU length: 3839 bytes
+			DSSS/CCK HT40
+			L-SIG TXOP protection
+		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
+		Minimum RX AMPDU time spacing: 16 usec (0x07)
+		HT Max RX data rate: 72 Mbps
+		HT TX/RX MCS rate indexes supported: 0-7
+		Frequencies:
+			* 2412.0 MHz [1] (20.0 dBm)
+			* 2417.0 MHz [2] (20.0 dBm)
+			* 2422.0 MHz [3] (20.0 dBm)
+			* 2427.0 MHz [4] (20.0 dBm)
+			* 2432.0 MHz [5] (20.0 dBm)
+			* 2437.0 MHz [6] (20.0 dBm)
+			* 2442.0 MHz [7] (20.0 dBm)
+			* 2447.0 MHz [8] (20.0 dBm)
+			* 2452.0 MHz [9] (20.0 dBm)
+			* 2457.0 MHz [10] (20.0 dBm)
+			* 2462.0 MHz [11] (20.0 dBm)
+			* 2467.0 MHz [12] (20.0 dBm) (no IR)
+			* 2472.0 MHz [13] (20.0 dBm) (no IR)
+			* 2484.0 MHz [14] (20.0 dBm) (no IR)
+	interface combinations are not supported
+	HT Capability overrides:
+		 * MCS: ff ff ff ff ff ff ff ff ff ff
+		 * maximum A-MSDU length
+		 * supported channel width
+		 * short GI for 40 MHz
+		 * max A-MPDU length exponent
+		 * min MPDU start spacing
+	max # scan plans: 1
+	max scan plan interval: -1
+	max scan plan iterations: 0
+	Supported extended features:
+		* [ RRM ]: RRM
+		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+		* [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
+		* [ DEL_IBSS_STA ]: deletion of IBSS station support
+		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
+		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
+		* [ POWERED_ADDR_CHANGE ]: can change MAC address while up

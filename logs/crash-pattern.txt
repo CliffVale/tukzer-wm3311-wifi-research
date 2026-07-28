@@ -1,0 +1,134 @@
+321:[   11.507392] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+322:[   11.520157] wcn36xx: mac address: 02:00:c6:15:3d:10
+333:[   25.811777] wcn36xx: ERROR Timeout! No SMD response to req 55 in 10000ms
+338:[   36.051745] wcn36xx: ERROR Timeout! No SMD response to req 55 in 10000ms
+346:[   74.248633] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+347:[   74.248831] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+348:[   74.258079] remoteproc remoteproc1: handling crash #1 in a204000.remoteproc
+349:[   74.266094] remoteproc remoteproc1: recovering a204000.remoteproc
+350:[   79.358355] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+353:[   80.218431] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+354:[   80.229005] wcn36xx: mac address: 02:00:c6:15:3d:10
+355:[  142.976147] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+356:[  142.976345] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+357:[  142.985602] remoteproc remoteproc1: handling crash #2 in a204000.remoteproc
+358:[  142.993611] remoteproc remoteproc1: recovering a204000.remoteproc
+359:[  148.265019] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+362:[  149.118431] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+363:[  149.128974] wcn36xx: mac address: 02:00:c6:15:3d:10
+364:[  211.859445] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+365:[  211.859644] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+366:[  211.868963] remoteproc remoteproc1: handling crash #3 in a204000.remoteproc
+367:[  211.876869] remoteproc remoteproc1: recovering a204000.remoteproc
+368:[  216.958455] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+371:[  217.811422] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+372:[  217.821704] wcn36xx: mac address: 02:00:c6:15:3d:10
+373:[  280.571037] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+374:[  280.571354] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+375:[  280.580662] remoteproc remoteproc1: handling crash #4 in a204000.remoteproc
+376:[  280.588700] remoteproc remoteproc1: recovering a204000.remoteproc
+377:[  285.651725] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+380:[  286.501916] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+381:[  286.509534] wcn36xx: mac address: 02:00:c6:15:3d:10
+382:[  349.295347] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+383:[  349.295546] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+384:[  349.304909] remoteproc remoteproc1: handling crash #5 in a204000.remoteproc
+385:[  349.312813] remoteproc remoteproc1: recovering a204000.remoteproc
+386:[  354.558126] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+389:[  355.411822] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+390:[  355.422782] wcn36xx: mac address: 02:00:c6:15:3d:10
+391:[  418.219988] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+392:[  418.220186] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+393:[  418.229522] remoteproc remoteproc1: handling crash #6 in a204000.remoteproc
+394:[  418.237456] remoteproc remoteproc1: recovering a204000.remoteproc
+395:[  423.465020] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+398:[  424.322841] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+399:[  424.333488] wcn36xx: mac address: 02:00:c6:15:3d:10
+400:[  487.085092] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+401:[  487.085293] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+402:[  487.094552] remoteproc remoteproc1: handling crash #7 in a204000.remoteproc
+403:[  487.102562] remoteproc remoteproc1: recovering a204000.remoteproc
+404:[  492.371550] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+407:[  493.225085] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+408:[  493.235338] wcn36xx: mac address: 02:00:c6:15:3d:10
+409:[  555.982054] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+410:[  555.982251] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+411:[  555.991640] remoteproc remoteproc1: handling crash #8 in a204000.remoteproc
+412:[  555.999510] remoteproc remoteproc1: recovering a204000.remoteproc
+413:[  561.278286] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+416:[  562.131780] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+417:[  562.142235] wcn36xx: mac address: 02:00:c6:15:3d:10
+418:[  624.879275] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+419:[  624.879474] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+420:[  624.888862] remoteproc remoteproc1: handling crash #9 in a204000.remoteproc
+421:[  624.896744] remoteproc remoteproc1: recovering a204000.remoteproc
+422:[  629.971352] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+425:[  630.817839] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+426:[  630.827868] wcn36xx: mac address: 02:00:c6:15:3d:10
+427:[  693.574671] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+428:[  693.574870] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+429:[  693.584110] remoteproc remoteproc1: handling crash #10 in a204000.remoteproc
+430:[  693.592143] remoteproc remoteproc1: recovering a204000.remoteproc
+431:[  698.664939] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+434:[  699.518222] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+435:[  699.528303] wcn36xx: mac address: 02:00:c6:15:3d:10
+436:[  762.276539] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+437:[  762.276736] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+438:[  762.285983] remoteproc remoteproc1: handling crash #11 in a204000.remoteproc
+439:[  762.293997] remoteproc remoteproc1: recovering a204000.remoteproc
+440:[  767.571601] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+443:[  768.424269] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+444:[  768.434757] wcn36xx: mac address: 02:00:c6:15:3d:10
+445:[  831.179572] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+446:[  831.179769] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+447:[  831.189128] remoteproc remoteproc1: handling crash #12 in a204000.remoteproc
+448:[  831.197059] remoteproc remoteproc1: recovering a204000.remoteproc
+453:[  836.478128] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+456:[  837.327806] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+457:[  837.338411] wcn36xx: mac address: 02:00:c6:15:3d:10
+458:[  837.468194] qcom-wcnss-pil a204000.remoteproc: timeout waiting for ssctl service
+463:[  838.356625] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+464:[  838.366865] wcn36xx: mac address: 02:00:c6:15:3d:10
+465:[  901.099930] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+466:[  901.100129] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+467:[  901.109396] remoteproc remoteproc1: handling crash #13 in a204000.remoteproc
+468:[  901.117401] remoteproc remoteproc1: recovering a204000.remoteproc
+469:[  909.011498] wcn36xx: ERROR Timeout! No SMD response to req 55 in 10000ms
+471:[  914.131632] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+474:[  914.977732] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+475:[  914.988002] wcn36xx: mac address: 02:00:c6:15:3d:10
+476:[  977.741032] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+477:[  977.741230] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+478:[  977.750570] remoteproc remoteproc1: handling crash #14 in a204000.remoteproc
+479:[  977.758504] remoteproc remoteproc1: recovering a204000.remoteproc
+480:[  982.824894] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+483:[  983.674432] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+484:[  983.684825] wcn36xx: mac address: 02:00:c6:15:3d:10
+485:[ 1046.435013] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+486:[ 1046.435211] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+487:[ 1046.444562] remoteproc remoteproc1: handling crash #15 in a204000.remoteproc
+488:[ 1046.452485] remoteproc remoteproc1: recovering a204000.remoteproc
+489:[ 1051.731517] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+492:[ 1052.580255] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+493:[ 1052.589140] wcn36xx: mac address: 02:00:c6:15:3d:10
+494:[ 1115.320219] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+495:[ 1115.320416] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+496:[ 1115.329674] remoteproc remoteproc1: handling crash #16 in a204000.remoteproc
+497:[ 1115.337686] remoteproc remoteproc1: recovering a204000.remoteproc
+498:[ 1120.424867] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+501:[ 1121.273974] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+502:[ 1121.284624] wcn36xx: mac address: 02:00:c6:15:3d:10
+503:[ 1184.020252] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+504:[ 1184.020452] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+505:[ 1184.029781] remoteproc remoteproc1: handling crash #17 in a204000.remoteproc
+506:[ 1184.037736] remoteproc remoteproc1: recovering a204000.remoteproc
+507:[ 1189.118140] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+510:[ 1189.963998] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+511:[ 1189.974850] wcn36xx: mac address: 02:00:c6:15:3d:10
+512:[ 1252.727867] qcom-wcnss-pil a204000.remoteproc: fatal error received: dog.c:1676:Watchdog detects task starvation
+513:[ 1252.728065] remoteproc remoteproc1: crash detected in a204000.remoteproc: type fatal error
+514:[ 1252.737351] remoteproc remoteproc1: handling crash #18 in a204000.remoteproc
+515:[ 1252.745335] remoteproc remoteproc1: recovering a204000.remoteproc
+516:[ 1257.811405] qcom-wcnss-pil a204000.remoteproc: timed out on wait
+519:[ 1258.661027] qcom_wcnss_ctrl remoteproc1:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+520:[ 1258.671454] wcn36xx: mac address: 02:00:c6:15:3d:10

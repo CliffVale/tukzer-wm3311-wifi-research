@@ -1,0 +1,10 @@
+=== Current crash count ===
+[  977.750570] remoteproc remoteproc1: handling crash #14 in a204000.remoteproc
+[ 1046.444562] remoteproc remoteproc1: handling crash #15 in a204000.remoteproc
+[ 1115.329674] remoteproc remoteproc1: handling crash #16 in a204000.remoteproc
+[ 1184.029781] remoteproc remoteproc1: handling crash #17 in a204000.remoteproc
+[ 1252.737351] remoteproc remoteproc1: handling crash #18 in a204000.remoteproc
+=== Current WCNSS state ===
+running
+=== uptime ===
+ 14:03:06 up 21 min,  load average: 0.06, 0.10, 0.08
