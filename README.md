@@ -1,9 +1,10 @@
 # Tukzer WM3311 (UZ801 v3.0) — WCN3620 WiFi Firmware Crash Research
 
 > **Device**: Tukzer WM3311 / UZ801 v3.0 — MSM8916 SoC, 384MB RAM, 4GB eMMC  
-> **OS**: OpenWrt 25.12.5 (Linux 6.12.94, aarch64) — from [hkfuertes/msm8916-openwrt](https://github.com/hkfuertes/msm8916-openwrt)  
+> **OS**: OpenWrt 25.12.5 (Linux 6.12.94, aarch64) — from [hkfuertes/msm8916-openwrt](https://github.com/hkfuertes/msm8916-openwrt) (⚠️ repo no longer accessible as of 2026-07-28)  
 > **WiFi Chip**: WCN3620 (802.11 b/g/n 2.4GHz only)  
 > **Problem**: WCNSS firmware crashes with `dog.c:1676:Watchdog detects task starvation` every ~63 seconds after boot.  
+> **LED Fix Applied**: 2026-07-28 — all 3 LEDs now lit (red=default-on, green=heartbeat, blue=timer)
 > **Status**: Root cause identified. No fix deployed yet.
 
 ---
@@ -290,7 +291,7 @@ If the firmware timer is waiting for `HAL_START_REQ` (sent by `wcn36xx_start()` 
 
 | Project | URL |
 |---------|-----|
-| hkfuertes/msm8916-openwrt | https://github.com/hkfuertes/msm8916-openwrt |
+| hkfuertes/msm8916-openwrt | https://github.com/hkfuertes/msm8916-openwrt (⚠️ repo 404 as of 2026-07-28) |
 | msm8916-mainline/linux | https://github.com/msm8916-mainline/linux |
 | msm8953-mainline/linux | https://github.com/msm8953-mainline/linux |
 | OpenStick | https://github.com/OpenStick/OpenStick |
@@ -338,4 +339,4 @@ tukzer-wm3311-wifi-research/
 
 *Documentation — freely reusable. Use at your own risk.*
 
-*Last updated: 2026-07-28*
+*Last updated: 2026-07-28

@@ -1,0 +1,11 @@
+filename:	/lib/modules/6.12.94/wcn36xx.ko
+firmware:	wlan/prima/WCNSS_qcom_wlan_nv.bin
+author:		Eugene Krasnikov k.eugene.e@gmail.com
+license:	Dual BSD/GPL
+description:	Qualcomm Atheros WCN3660/3680 wireless driver
+alias:		of:N*T*Cqcom,wcnss-wlanC*
+alias:		of:N*T*Cqcom,wcnss-wlan
+depends:	
+name:		wcn36xx
+vermagic:	6.12.94 SMP preempt mod_unload aarch64
+parm:		debug_mask:Debugging mask (uint)
