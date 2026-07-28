@@ -1,0 +1,106 @@
+/dts-v1/;
+
+/ {
+	model = "Tukzer WM3311 SP971-V4 4G Modem Stick";
+	compatible = "tukzer,wm3311-sp971v4", "yiming,uz801-v3", "qcom,msm8916";
+
+	#address-cells = <0x1>;
+	#size-cells = <0x1>;
+
+	memory@80000000 {
+		device_type = "memory";
+		reg = <0x80000000 0x20000000>;
+	};
+
+	chosen {
+		stdout-path = "/soc@0/serial@78b0000:115200n8";
+		bootargs = "console=ttyMSM0,115200n8 earlycon=msm_serial_dm,0x78b0000 root=/dev/mmcblk0p23 rootwait rw";
+	};
+
+	/* 100% Verified Tukzer SP971-V4 GPIO LED Mapping */
+	leds {
+		compatible = "gpio-leds";
+
+		red_power {
+			label = "red:power";
+			gpios = <&tlmm 0x8 0x0>;
+			default-state = "on";
+			linux,default-trigger = "default-on";
+		};
+
+		green_wan {
+			label = "green:wan";
+			gpios = <&tlmm 0x9 0x0>;
+			default-state = "off";
+			linux,default-trigger = "heartbeat";
+		};
+
+		blue_wlan {
+			label = "blue:wlan";
+			gpios = <&tlmm 0xa 0x0>;
+			default-state = "off";
+			linux,default-trigger = "timer";
+		};
+
+		button_backlight {
+			label = "button-backlight";
+			gpios = <&tlmm 0x77 0x0>;
+			default-state = "off";
+		};
+	};
+
+	gpio-keys {
+		compatible = "gpio-keys";
+
+		button-restart {
+			label = "restart";
+			gpios = <&tlmm 0x6b 0x1>;
+			linux,code = <0x198>;
+		};
+	};
+
+	soc@0 {
+		#address-cells = <0x1>;
+		#size-cells = <0x1>;
+		ranges = <0x0 0x0 0x0 0xffffffff>;
+
+		tlmm: pinctrl@1000000 {
+			compatible = "qcom,msm8916-pinctrl";
+			reg = <0x1000000 0x300000>;
+			interrupts = <0x0 0xd0 0x0>;
+			gpio-controller;
+			#gpio-cells = <0x2>;
+			interrupt-controller;
+			#interrupt-cells = <0x2>;
+		};
+
+		serial@78b0000 {
+			compatible = "qcom,msm-uartdm", "qcom,msm-serial";
+			reg = <0x78b0000 0x200>;
+			interrupts = <0x0 0x6c 0x0>;
+			status = "okay";
+		};
+
+		remoteproc@a204000 {
+			compatible = "qcom,pronto-v2-pil", "qcom,pronto";
+			reg = <0xa204000 0x2000 0x4088000 0x100>;
+			reg-names = "cc", "qcom,mmio";
+			interrupts = <0x0 0x1b 0x1 0x0 0x1c 0x1 0x0 0x1d 0x1>;
+			firmware-name = "wcnss.mdt";
+			status = "okay";
+
+			iris {
+				compatible = "qcom,wcn3620";
+			};
+		};
+
+		remoteproc@4080000 {
+			compatible = "qcom,q6v5-mss";
+			reg = <0x4080000 0x100 0x4020000 0x04 0x4020004 0x04 0x4088000 0x100>;
+			reg-names = "q6v5", "rmb", "restart", "qcom,mmio";
+			interrupts = <0x0 0x18 0x1 0x0 0x19 0x1 0x0 0x1a 0x1>;
+			firmware-name = "mba.mbn", "modem.mdt";
+			status = "okay";
+		};
+	};
+};
